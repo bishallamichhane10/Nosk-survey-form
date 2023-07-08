@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.formcontainer{
+    background-color:#061549;
+    display:flex;
+    flex-direction:column;
+    padding: 25px;
+    min-width: 50vw;
+    opacity: 0.9;
+  }
+  input,select,textarea{
+    padding:10px;
+    margin:9px;
+    font-size:20px;
+  }
+  label{
+    font-size:20px;
+    color:white;
+  }
+  .checkboxcontainer{
+    display:flex;
+    flex-direction:column;
+  }
+  button{
+    padding:10px;
+    font-size:20px;
+    background-color: rgb(108, 9, 165);
+    color: white;
+    border:none;
+    border-radius: 3px;
+  }
+  .parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url("https://media.istockphoto.com/id/1302189748/photo/digital-cyberspace-with-particles-and-digital-data-network-connections-high-speed-connection.jpg?b=1&s=612x612&w=0&k=20&c=bwDXyw4wOGrBQOQ2Z15DUApR8H2MNogIaIIZp9jnuoQ=")
+  }
+  h1{
+    font-family: 'Prompt', sans-serif; 
+    color: rgb(21, 206, 144); 
+}
+button:hover{
+    cursor:pointer;
+
+}
+.radiodiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.radiodiv .input{
+    text-align: left;
+}
